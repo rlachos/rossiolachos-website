@@ -1,0 +1,19 @@
+.contact--summary{
+    text-align: center;
+}
+.contact-summary__header{
+    text-align: center;
+}
+.contact--form{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contactme--sumary_checkbox{
+    margin-bottom: 2em;
+}

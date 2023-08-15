@@ -1,0 +1,81 @@
+.practice_section {
+    background-color: var(--white);
+}
+
+.practice_header {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.wrapper-text {
+    display: grid;
+    justify-content: left;
+    gap: 1.25em;
+    margin-bottom: 2.5em;
+}
+.img-code {
+    border-radius: 8px;
+    
+}
+.build_section {
+    background-color: var(--secondary-ligth);
+}
+
+.build_section-sumary {
+    display: grid;
+    gap: 1em;
+}
+.practice-build {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-top: 3em;
+}
+
+.practice--build-target_icon {
+    background-color: var(--background);
+    padding: 0.625em 0.5em;
+    border-radius: 0.5em;
+}
+
+.team_section {
+    background-color: var(--white);
+}
+
+.team {
+    text-align: left;
+}
+
+.team p {
+    margin: 1rem 0 3rem 0;
+}
+.team-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-top: 3em;
+}
+
+.team--card-profile {
+    display: grid;
+    gap: 1rem;
+}
+
+.team-section-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 1.352em;
+    margin-top: 0.5625em;
+}

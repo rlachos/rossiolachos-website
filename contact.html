@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rossio Lachos | Blog</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-lg">
+        <nav class="navbar">
+          <input type="checkbox" id="menu-mobile" />
+
+          <a
+            href="index.html"
+            class="navbar__logo heading-md semibold text-decoration-none"
+          >
+            <span> Rossio Lachos </span>
+
+            <!-- option 1 -->
+            <label for="menu-mobile" id="toggle-close">
+              <i class="ri-close-fill ri-sm"></i>
+            </label>
+
+            <!-- option 2 -->
+            <label for="menu-mobile" id="toggle-open">
+              <i class="ri-menu-fill ri-sm"></i>
+            </label>
+          </a>
+
+          <ul class="expandable navbar__links list-style-none">
+            <li>
+              <a href="article.html" class="link text-md semibold">Articles</a>
+            </li>
+            <li>
+              <a href="portafolio.html" class="link text-md semibold">Portafolio</a>
+            </li>
+            <li>
+              <a href="about.html" class="link text-md semibold">About</a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="button button--primary button--sm text-decoration-none ml-4"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section-md contact-summary">
+     
+      <div class="container-md">
+        
+        <div class="contact-summary__header">
+          <h2 class="heading-lg semibold ">Contact me</h2>
+          <p class="text-lg light">Looking to expand your team? Or do you need a web developer for a specific project? If I can help you in any way don't hesitate to fill this form.</p>
+        </div>
+
+        <form>
+            <div class="contact--form">
+                    <label  class="text-xs light overline w-full">
+                        First name:
+                        <input class= "input" type="text" name="user" id="username" placeholder="jhon" />
+                    </label>
+                    <label class="text-xs light overline w-full">
+                        Last name:
+                        <input class= "input" type="text" name="user" id="userlastname" placeholder="statman" />
+                    </label>
+                
+
+                    <label class="text-xs light overline w-full">
+                        Email:
+                        <input class= "input" type="email" name="user" id="useremail" placeholder="jhon@mail.com" />
+                    </label>
+                    <label class="text-xs light overline w-full">
+                        Company:
+                        <input class= "input" type="text" name="user" id="usercompany" placeholder="Conpany SA" />
+                    </label>
+                
+                
+      
+                    <label class="text-xs light overline w-full">
+                        Phone:
+                        <input class= "input" type="tel" name="user" id="userphone" placeholder="978913686"  />
+                    </label>
+
+                    <label class="text-xs overline light w-full">
+                      Country:
+                      <select name="pais" class="select select__message--error">
+                        <option value="DE">Alemania</option>
+                        <option value="AR">Argentina</option>
+                        <option value="AT">Austria</option>
+                        <option value="BR">Brasil</option>
+                        <option value="ES" >España</option>
+                        <option value="US">Estados Unidos</option>
+                        <option value="PE" selected>Perú</option>
+                        <option value="UK">Reino Unido</option>
+                      </select>            
+                    </label>      
+            </div>
+            <div class="contactme--sumary_checkbox">
+              <h2 class=" tex-xs light overline">How can I help you?</h2>
+              <div class="checkbox-group checkbox-group--vertical">
+                <div class="checkbox">
+                  <input id="checkbox1" name="group_1" type="checkbox" class="checkbox__input">
+                  <div>
+                    <label for="checkbox1" class="tex-sm light">Job Offer</label>
+                    <span class="checkbox__message">If you are looking to expand your team</span>
+                  </div>
+                </div>
+                <div class="checkbox">
+                  <input id="checkbox2" name="group_1" type="checkbox" class="checkbox__input">
+                  <div>
+                    <label for="checkbox2" class="tex-sm light">Project Offer</label>
+                    <span class="checkbox__message">If you are looking to expand your team</span>
+                  </div>
+                </div>
+                <div class="checkbox">
+                  <input id="checkbox3" name="group_1" type="checkbox" class="checkbox__input">
+                  <div>
+                    <label for="checkbox3" class="tex-sm light">Collaboration</label>
+                    <span class="checkbox__message">If you are looking to expand your team</span>
+                  </div>
+                </div>
+                <div class="checkbox">
+                  <input id="checkbox4" name="group_1" type="checkbox" class="checkbox__input">
+                  <div>
+                    <label for="checkbox4" class="tex-sm light">Other</label>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <button class="button button--primary w-full">Send</button>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container-lg footer__content">
+        <h2 class="heading-xl semibold footer__content__title">
+          Can I Help you?
+        </h2>
+        <button class="button button--primary">Get in touch!</button>
+      </div>
+    </footer>
+  </body>
+</html>
