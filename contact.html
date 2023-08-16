@@ -61,32 +61,32 @@
           <p class="text-lg light">Looking to expand your team? Or do you need a web developer for a specific project? If I can help you in any way don't hesitate to fill this form.</p>
         </div>
 
-        <form>
+        <form action="https://formsubmit.co/rossio.lachos28@gmail.com" method="POST">
             <div class="contact--form">
                     <label  class="text-xs light overline w-full">
                         First name:
-                        <input class= "input" type="text" name="user" id="username" placeholder="jhon" />
+                        <input class= "input" type="text" name="name" id="username" placeholder="jhon" />
                     </label>
                     <label class="text-xs light overline w-full">
                         Last name:
-                        <input class= "input" type="text" name="user" id="userlastname" placeholder="statman" />
+                        <input class= "input" type="text" name="lastname" id="userlastname" placeholder="statman" />
                     </label>
                 
 
                     <label class="text-xs light overline w-full">
                         Email:
-                        <input class= "input" type="email" name="user" id="useremail" placeholder="jhon@mail.com" />
+                        <input class= "input" type="email" name="email" id="useremail" placeholder="jhon@mail.com" />
                     </label>
                     <label class="text-xs light overline w-full">
                         Company:
-                        <input class= "input" type="text" name="user" id="usercompany" placeholder="Conpany SA" />
+                        <input class= "input" type="text" name="company" id="usercompany" placeholder="Conpany SA" />
                     </label>
                 
                 
       
                     <label class="text-xs light overline w-full">
                         Phone:
-                        <input class= "input" type="tel" name="user" id="userphone" placeholder="978913686"  />
+                        <input class= "input" type="tel" name="phone" id="userphone" placeholder="978913686"  />
                     </label>
 
                     <label class="text-xs overline light w-full">
@@ -136,7 +136,9 @@
               </div>
 
             </div>
-            <button class="button button--primary w-full">Send</button>
+            <input type= "submit" value="send" class="button button--primary w-full">
+            <input type="hidden" name="_next" value="https://rossiolachos.com/">
+            <input type="hidden" name="_captcha" value="false">
         </form>
       </div>
     </main>
